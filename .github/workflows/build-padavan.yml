@@ -43,7 +43,7 @@ jobs:
         mv 1.15.3 1.14.10
     - name: Build Firmware
       env:
-        TNAME: E8820V2
+        TNAME: K2P
       run: |
         cd /opt/rt-n56u/trunk
         if [ ! -f configs/templates/$TNAME.config ] ; then
